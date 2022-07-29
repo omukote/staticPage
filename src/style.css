@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-size: large;
+}
+
+div {
+  font-size: large;
+  font-family: sans-serif;
+  color: azure;
+}
+
+.nav {
+  display: flex;
+  justify-content: baseline;
+  color: azure;
+  align-items: center;
+  background-color: rgb(44, 44, 44);
+}
+.h4 {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+.h5 {
+  margin: 0;
+  margin-left: auto;
+}
+.logo {
+  margin-right: 7px;
+  height: 20px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  color: black;
+  height: 2.5rem;
+}
+body {
+  background-color: rgb(58, 58, 58);
+  margin: 0;
+  background-image: url("./logo512.png");
+  background-repeat: repeat-y;
+  background-position: 68em;
+  background-size: 10%;
+}
+.h2 {
+  padding-left: 35px;
+  font-size: 22px;
+  padding-bottom: 0px;
+}
+.listy > li::marker {
+  padding-left: 67px;
+  padding-top: 0px;
+  line-height: 22px;
+  font-size: 1.4rem;
+  color: #61dafb;
+}
+.listy {
+  padding-left: 67px;
+  padding-top: 0px;
+  line-height: 22px;
+  font-size: 1.4rem;
+}
+.h3 {
+  color: azure;
+  padding-left: 35px;
+}
+a {
+  color: blanchedalmond;
+  padding-left: 67px;
+}
+.p {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
