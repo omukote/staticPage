@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import ChildComponent from "./ChildComponent";
 import BodyContent from "./BodyContent";
 import MoreProjects from "./MoreProjects";
+import Toggle from "./Toggle";
 
 //Parent/Child components
 
@@ -12,6 +13,7 @@ function ParentComponent() {
   return (
     <div>
       <ChildComponent />
+      <Toggle />
       <BodyContent />
       <MoreProjects />
       <Footer />
